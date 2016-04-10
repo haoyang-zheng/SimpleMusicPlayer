@@ -7,28 +7,275 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8E6D4C41CB9041D00C06670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D4C31CB9041D00C06670 /* main.m */; };
-		A8E6D4C71CB9041D00C06670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D4C61CB9041D00C06670 /* AppDelegate.m */; };
-		A8E6D4CA1CB9041D00C06670 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D4C91CB9041D00C06670 /* MasterViewController.m */; };
-		A8E6D4CD1CB9041D00C06670 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D4CC1CB9041D00C06670 /* DetailViewController.m */; };
-		A8E6D4D01CB9041D00C06670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D4CE1CB9041D00C06670 /* Main.storyboard */; };
-		A8E6D4D21CB9041D00C06670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D4D11CB9041D00C06670 /* Assets.xcassets */; };
-		A8E6D4D51CB9041D00C06670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D4D31CB9041D00C06670 /* LaunchScreen.storyboard */; };
+		6CB7108CA3B30E3DDCE5652F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9358E636D11AA8226B4AC03D /* libPods.a */; };
+		A81DB80E1CBA184000E30566 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7DD1CBA183F00E30566 /* AppDelegate.m */; };
+		A81DB80F1CBA184000E30566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81DB7DE1CBA183F00E30566 /* Assets.xcassets */; };
+		A81DB8101CBA184000E30566 /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7E01CBA183F00E30566 /* AVPlayerManager.m */; };
+		A81DB8111CBA184000E30566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81DB7E11CBA183F00E30566 /* LaunchScreen.storyboard */; };
+		A81DB8121CBA184000E30566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81DB7E31CBA183F00E30566 /* Main.storyboard */; };
+		A81DB8131CBA184000E30566 /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7E61CBA183F00E30566 /* CircularProgressView.m */; };
+		A81DB8141CBA184000E30566 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7E81CBA183F00E30566 /* DetailViewController.m */; };
+		A81DB8151CBA184000E30566 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A81DB7E91CBA183F00E30566 /* Info.plist */; };
+		A81DB8161CBA184000E30566 /* LyricTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7EB1CBA183F00E30566 /* LyricTableView.m */; };
+		A81DB8171CBA184000E30566 /* LyricTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7ED1CBA183F00E30566 /* LyricTableViewCell.m */; };
+		A81DB8181CBA184000E30566 /* LyricView_A.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7EF1CBA183F00E30566 /* LyricView_A.m */; };
+		A81DB8191CBA184000E30566 /* LyricView_T.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7F11CBA184000E30566 /* LyricView_T.m */; };
+		A81DB81A1CBA184000E30566 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7F21CBA184000E30566 /* main.m */; };
+		A81DB81B1CBA184000E30566 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7F41CBA184000E30566 /* MainViewController.m */; };
+		A81DB81C1CBA184000E30566 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7F61CBA184000E30566 /* MasterViewController.m */; };
+		A81DB81D1CBA184000E30566 /* MoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7F81CBA184000E30566 /* MoreView.m */; };
+		A81DB81E1CBA184000E30566 /* MusicBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7FA1CBA184000E30566 /* MusicBarView.m */; };
+		A81DB81F1CBA184000E30566 /* MusicBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7FC1CBA184000E30566 /* MusicBarViewController.m */; };
+		A81DB8201CBA184000E30566 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB7FE1CBA184000E30566 /* MusicListViewController.m */; };
+		A81DB8211CBA184000E30566 /* MusicPlayerListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB8001CBA184000E30566 /* MusicPlayerListManager.m */; };
+		A81DB8221CBA184000E30566 /* MusicPlayerListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB8021CBA184000E30566 /* MusicPlayerListTableViewCell.m */; };
+		A81DB8231CBA184000E30566 /* MusicPlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB8041CBA184000E30566 /* MusicPlayerListViewController.m */; };
+		A81DB8241CBA184000E30566 /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB8061CBA184000E30566 /* MusicPlayerViewController.m */; };
+		A81DB8251CBA184000E30566 /* NSString+GetMusicLyricArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB8081CBA184000E30566 /* NSString+GetMusicLyricArray.m */; };
+		A81DB8261CBA184000E30566 /* NSString+GetWidHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB80A1CBA184000E30566 /* NSString+GetWidHeight.m */; };
+		A81DB8271CBA184000E30566 /* TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DB80D1CBA184000E30566 /* TipView.m */; };
+		A8E6D4EE1CB9052C00C06670 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D4ED1CB9052C00C06670 /* CollectionViewController.m */; };
+		A8E6D4F11CB9053600C06670 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D4F01CB9053600C06670 /* DatabaseManager.m */; };
+		A8E6D4F41CB9053D00C06670 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D4F31CB9053D00C06670 /* Music.m */; };
+		A8E6D50A1CB90C4200C06670 /* PlayAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D5091CB90C4200C06670 /* PlayAnimationView.m */; };
+		A8E6D52D1CB912C500C06670 /* CollectListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D52C1CB912C500C06670 /* CollectListManager.m */; };
+		A8E6D5421CB914DC00C06670 /* TYAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D52F1CB914DC00C06670 /* TYAlertController+TransitionAnimate.m */; };
+		A8E6D5431CB914DC00C06670 /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D5311CB914DC00C06670 /* TYAlertController.m */; };
+		A8E6D5441CB914DC00C06670 /* TYAlertDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D5331CB914DC00C06670 /* TYAlertDropDownAnimation.m */; };
+		A8E6D5451CB914DC00C06670 /* TYAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D5351CB914DC00C06670 /* TYAlertFadeAnimation.m */; };
+		A8E6D5461CB914DC00C06670 /* TYAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D5371CB914DC00C06670 /* TYAlertScaleFadeAnimation.m */; };
+		A8E6D5471CB914DC00C06670 /* TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D5391CB914DC00C06670 /* TYAlertView.m */; };
+		A8E6D5481CB914DC00C06670 /* TYBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D53B1CB914DC00C06670 /* TYBaseAnimation.m */; };
+		A8E6D5491CB914DC00C06670 /* TYShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D53D1CB914DC00C06670 /* TYShowAlertView.m */; };
+		A8E6D54A1CB914DC00C06670 /* UIView+TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D53F1CB914DC00C06670 /* UIView+TYAlertView.m */; };
+		A8E6D54B1CB914DC00C06670 /* UIView+TYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D5411CB914DC00C06670 /* UIView+TYAutoLayout.m */; };
+		A8E6D54F1CB916C900C06670 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6D54E1CB916C900C06670 /* NetWork.m */; };
+		A8E6D61E1CB9250800C06670 /* iconfont-bofang.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5D61CB9250800C06670 /* iconfont-bofang.png */; };
+		A8E6D61F1CB9250800C06670 /* iconfont-bofang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5D71CB9250800C06670 /* iconfont-bofang@2x.png */; };
+		A8E6D6201CB9250800C06670 /* iconfont-bofanglist2.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5D81CB9250800C06670 /* iconfont-bofanglist2.png */; };
+		A8E6D6211CB9250800C06670 /* iconfont-bofanglist2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5D91CB9250800C06670 /* iconfont-bofanglist2@2x.png */; };
+		A8E6D6221CB9250800C06670 /* iconfont-delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5DA1CB9250800C06670 /* iconfont-delete.png */; };
+		A8E6D6231CB9250800C06670 /* iconfont-delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5DB1CB9250800C06670 /* iconfont-delete@2x.png */; };
+		A8E6D6241CB9250800C06670 /* iconfont-delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5DC1CB9250800C06670 /* iconfont-delete@3x.png */; };
+		A8E6D6251CB9250800C06670 /* iconfont-dian.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5DD1CB9250800C06670 /* iconfont-dian.png */; };
+		A8E6D6261CB9250800C06670 /* iconfont-dian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5DE1CB9250800C06670 /* iconfont-dian@2x.png */; };
+		A8E6D6271CB9250800C06670 /* iconfont-dian_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5DF1CB9250800C06670 /* iconfont-dian_b.png */; };
+		A8E6D6281CB9250800C06670 /* iconfont-gengduo.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E01CB9250800C06670 /* iconfont-gengduo.png */; };
+		A8E6D6291CB9250800C06670 /* iconfont-gengduo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E11CB9250800C06670 /* iconfont-gengduo@2x.png */; };
+		A8E6D62A1CB9250800C06670 /* iconfont-gengduo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E21CB9250800C06670 /* iconfont-gengduo@3x.png */; };
+		A8E6D62B1CB9250800C06670 /* iconfont-pause.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E31CB9250800C06670 /* iconfont-pause.png */; };
+		A8E6D62C1CB9250800C06670 /* iconfont-pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E41CB9250800C06670 /* iconfont-pause@2x.png */; };
+		A8E6D62D1CB9250800C06670 /* iconfont-shangyishou.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E51CB9250800C06670 /* iconfont-shangyishou.png */; };
+		A8E6D62E1CB9250800C06670 /* iconfont-shangyishou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E61CB9250800C06670 /* iconfont-shangyishou@2x.png */; };
+		A8E6D62F1CB9250800C06670 /* iconfont-shangyishou_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E71CB9250800C06670 /* iconfont-shangyishou_b.png */; };
+		A8E6D6301CB9250800C06670 /* iconfont-shu.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E81CB9250800C06670 /* iconfont-shu.png */; };
+		A8E6D6311CB9250800C06670 /* iconfont-shu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5E91CB9250800C06670 /* iconfont-shu@2x.png */; };
+		A8E6D6321CB9250800C06670 /* iconfont-shu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5EA1CB9250800C06670 /* iconfont-shu@3x.png */; };
+		A8E6D6331CB9250800C06670 /* iconfont-xia.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5EB1CB9250800C06670 /* iconfont-xia.png */; };
+		A8E6D6341CB9250800C06670 /* iconfont-xia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5EC1CB9250800C06670 /* iconfont-xia@2x.png */; };
+		A8E6D6351CB9250800C06670 /* iconfont-xia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5ED1CB9250800C06670 /* iconfont-xia@3x.png */; };
+		A8E6D6361CB9250800C06670 /* iconfont-xiayishou.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5EE1CB9250800C06670 /* iconfont-xiayishou.png */; };
+		A8E6D6371CB9250800C06670 /* iconfont-xiayishou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5EF1CB9250800C06670 /* iconfont-xiayishou@2x.png */; };
+		A8E6D6381CB9250800C06670 /* iconfont-xiayishou_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F01CB9250800C06670 /* iconfont-xiayishou_b.png */; };
+		A8E6D6391CB9250800C06670 /* iconfont-zhengque.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F11CB9250800C06670 /* iconfont-zhengque.png */; };
+		A8E6D63A1CB9250800C06670 /* iconfont-zhengque@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F21CB9250800C06670 /* iconfont-zhengque@2x.png */; };
+		A8E6D63B1CB9250800C06670 /* iconfont-zhengque_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F31CB9250800C06670 /* iconfont-zhengque_b.png */; };
+		A8E6D63C1CB9250800C06670 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F41CB9250800C06670 /* music.png */; };
+		A8E6D63D1CB9250800C06670 /* music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F51CB9250800C06670 /* music@2x.png */; };
+		A8E6D63E1CB9250800C06670 /* music_small.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F61CB9250800C06670 /* music_small.png */; };
+		A8E6D63F1CB9250800C06670 /* music_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F71CB9250800C06670 /* music_small@2x.png */; };
+		A8E6D6401CB9250800C06670 /* iconfont-bofanglist.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5F91CB9250800C06670 /* iconfont-bofanglist.png */; };
+		A8E6D6411CB9250800C06670 /* iconfont-bofanglist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5FA1CB9250800C06670 /* iconfont-bofanglist@2x.png */; };
+		A8E6D6421CB9250800C06670 /* iconfont-bofanglist@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5FB1CB9250800C06670 /* iconfont-bofanglist@3x.png */; };
+		A8E6D6431CB9250800C06670 /* iconfont-danquxunhuan.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5FC1CB9250800C06670 /* iconfont-danquxunhuan.png */; };
+		A8E6D6441CB9250800C06670 /* iconfont-danquxunhuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5FD1CB9250800C06670 /* iconfont-danquxunhuan@2x.png */; };
+		A8E6D6451CB9250800C06670 /* iconfont-danquxunhuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5FE1CB9250800C06670 /* iconfont-danquxunhuan@3x.png */; };
+		A8E6D6461CB9250800C06670 /* iconfont-fenxiang.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D5FF1CB9250800C06670 /* iconfont-fenxiang.png */; };
+		A8E6D6471CB9250800C06670 /* iconfont-fenxiang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6001CB9250800C06670 /* iconfont-fenxiang@2x.png */; };
+		A8E6D6481CB9250800C06670 /* iconfont-fenxiang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6011CB9250800C06670 /* iconfont-fenxiang@3x.png */; };
+		A8E6D6491CB9250800C06670 /* iconfont-liebiaoxunhuan.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6021CB9250800C06670 /* iconfont-liebiaoxunhuan.png */; };
+		A8E6D64A1CB9250800C06670 /* iconfont-liebiaoxunhuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6031CB9250800C06670 /* iconfont-liebiaoxunhuan@2x.png */; };
+		A8E6D64B1CB9250800C06670 /* iconfont-liebiaoxunhuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6041CB9250800C06670 /* iconfont-liebiaoxunhuan@3x.png */; };
+		A8E6D64C1CB9250800C06670 /* iconfont-shoucang.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6051CB9250800C06670 /* iconfont-shoucang.png */; };
+		A8E6D64D1CB9250800C06670 /* iconfont-shoucang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6061CB9250800C06670 /* iconfont-shoucang@2x.png */; };
+		A8E6D64E1CB9250800C06670 /* iconfont-shoucang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6071CB9250800C06670 /* iconfont-shoucang@3x.png */; };
+		A8E6D64F1CB9250800C06670 /* iconfont-shoucang_s.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6081CB9250800C06670 /* iconfont-shoucang_s.png */; };
+		A8E6D6501CB9250800C06670 /* iconfont-shoucang_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6091CB9250800C06670 /* iconfont-shoucang_s@2x.png */; };
+		A8E6D6511CB9250800C06670 /* iconfont-shoucang_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D60A1CB9250800C06670 /* iconfont-shoucang_s@3x.png */; };
+		A8E6D6521CB9250800C06670 /* iconfont-shunxuxunhuan.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D60B1CB9250800C06670 /* iconfont-shunxuxunhuan.png */; };
+		A8E6D6531CB9250800C06670 /* iconfont-shunxuxunhuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D60C1CB9250800C06670 /* iconfont-shunxuxunhuan@2x.png */; };
+		A8E6D6541CB9250800C06670 /* iconfont-shunxuxunhuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D60D1CB9250800C06670 /* iconfont-shunxuxunhuan@3x.png */; };
+		A8E6D6551CB9250800C06670 /* iconfont-suijibofang.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D60E1CB9250800C06670 /* iconfont-suijibofang.png */; };
+		A8E6D6561CB9250800C06670 /* iconfont-suijibofang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D60F1CB9250800C06670 /* iconfont-suijibofang@2x.png */; };
+		A8E6D6571CB9250800C06670 /* iconfont-suijibofang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6101CB9250800C06670 /* iconfont-suijibofang@3x.png */; };
+		A8E6D6581CB9250800C06670 /* iconfont-xiazai.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6111CB9250800C06670 /* iconfont-xiazai.png */; };
+		A8E6D6591CB9250800C06670 /* iconfont-xiazai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6121CB9250800C06670 /* iconfont-xiazai@2x.png */; };
+		A8E6D65A1CB9250800C06670 /* iconfont-xiazai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6131CB9250800C06670 /* iconfont-xiazai@3x.png */; };
+		A8E6D65B1CB9250800C06670 /* iconfont-yinliangda.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6151CB9250800C06670 /* iconfont-yinliangda.png */; };
+		A8E6D65C1CB9250800C06670 /* iconfont-yinliangda@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6161CB9250800C06670 /* iconfont-yinliangda@2x.png */; };
+		A8E6D65D1CB9250800C06670 /* iconfont-yinliangda@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6171CB9250800C06670 /* iconfont-yinliangda@3x.png */; };
+		A8E6D65E1CB9250800C06670 /* iconfont-yinliangjingyin.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6181CB9250800C06670 /* iconfont-yinliangjingyin.png */; };
+		A8E6D65F1CB9250800C06670 /* iconfont-yinliangjingyin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D6191CB9250800C06670 /* iconfont-yinliangjingyin@2x.png */; };
+		A8E6D6601CB9250800C06670 /* iconfont-yinliangjingyin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D61A1CB9250800C06670 /* iconfont-yinliangjingyin@3x.png */; };
+		A8E6D6611CB9250800C06670 /* iconfont-yinliangxiao.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D61B1CB9250800C06670 /* iconfont-yinliangxiao.png */; };
+		A8E6D6621CB9250800C06670 /* iconfont-yinliangxiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D61C1CB9250800C06670 /* iconfont-yinliangxiao@2x.png */; };
+		A8E6D6631CB9250800C06670 /* iconfont-yinliangxiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E6D61D1CB9250800C06670 /* iconfont-yinliangxiao@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DE0142D9872F1A2ACBB0F8C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9358E636D11AA8226B4AC03D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81DB7DC1CBA183F00E30566 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A81DB7DD1CBA183F00E30566 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A81DB7DE1CBA183F00E30566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A81DB7DF1CBA183F00E30566 /* AVPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerManager.h; sourceTree = "<group>"; };
+		A81DB7E01CBA183F00E30566 /* AVPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerManager.m; sourceTree = "<group>"; };
+		A81DB7E21CBA183F00E30566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A81DB7E41CBA183F00E30566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A81DB7E51CBA183F00E30566 /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
+		A81DB7E61CBA183F00E30566 /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressView.m; sourceTree = "<group>"; };
+		A81DB7E71CBA183F00E30566 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A81DB7E81CBA183F00E30566 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A81DB7E91CBA183F00E30566 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81DB7EA1CBA183F00E30566 /* LyricTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricTableView.h; sourceTree = "<group>"; };
+		A81DB7EB1CBA183F00E30566 /* LyricTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricTableView.m; sourceTree = "<group>"; };
+		A81DB7EC1CBA183F00E30566 /* LyricTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricTableViewCell.h; sourceTree = "<group>"; };
+		A81DB7ED1CBA183F00E30566 /* LyricTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricTableViewCell.m; sourceTree = "<group>"; };
+		A81DB7EE1CBA183F00E30566 /* LyricView_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricView_A.h; sourceTree = "<group>"; };
+		A81DB7EF1CBA183F00E30566 /* LyricView_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricView_A.m; sourceTree = "<group>"; };
+		A81DB7F01CBA183F00E30566 /* LyricView_T.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricView_T.h; sourceTree = "<group>"; };
+		A81DB7F11CBA184000E30566 /* LyricView_T.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricView_T.m; sourceTree = "<group>"; };
+		A81DB7F21CBA184000E30566 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A81DB7F31CBA184000E30566 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A81DB7F41CBA184000E30566 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A81DB7F51CBA184000E30566 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A81DB7F61CBA184000E30566 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A81DB7F71CBA184000E30566 /* MoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreView.h; sourceTree = "<group>"; };
+		A81DB7F81CBA184000E30566 /* MoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreView.m; sourceTree = "<group>"; };
+		A81DB7F91CBA184000E30566 /* MusicBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicBarView.h; sourceTree = "<group>"; };
+		A81DB7FA1CBA184000E30566 /* MusicBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicBarView.m; sourceTree = "<group>"; };
+		A81DB7FB1CBA184000E30566 /* MusicBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicBarViewController.h; sourceTree = "<group>"; };
+		A81DB7FC1CBA184000E30566 /* MusicBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicBarViewController.m; sourceTree = "<group>"; };
+		A81DB7FD1CBA184000E30566 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		A81DB7FE1CBA184000E30566 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		A81DB7FF1CBA184000E30566 /* MusicPlayerListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerListManager.h; sourceTree = "<group>"; };
+		A81DB8001CBA184000E30566 /* MusicPlayerListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerListManager.m; sourceTree = "<group>"; };
+		A81DB8011CBA184000E30566 /* MusicPlayerListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerListTableViewCell.h; sourceTree = "<group>"; };
+		A81DB8021CBA184000E30566 /* MusicPlayerListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerListTableViewCell.m; sourceTree = "<group>"; };
+		A81DB8031CBA184000E30566 /* MusicPlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerListViewController.h; sourceTree = "<group>"; };
+		A81DB8041CBA184000E30566 /* MusicPlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerListViewController.m; sourceTree = "<group>"; };
+		A81DB8051CBA184000E30566 /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		A81DB8061CBA184000E30566 /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		A81DB8071CBA184000E30566 /* NSString+GetMusicLyricArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GetMusicLyricArray.h"; sourceTree = "<group>"; };
+		A81DB8081CBA184000E30566 /* NSString+GetMusicLyricArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GetMusicLyricArray.m"; sourceTree = "<group>"; };
+		A81DB8091CBA184000E30566 /* NSString+GetWidHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GetWidHeight.h"; sourceTree = "<group>"; };
+		A81DB80A1CBA184000E30566 /* NSString+GetWidHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GetWidHeight.m"; sourceTree = "<group>"; };
+		A81DB80B1CBA184000E30566 /* PCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCH.h; sourceTree = "<group>"; };
+		A81DB80C1CBA184000E30566 /* TipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipView.h; sourceTree = "<group>"; };
+		A81DB80D1CBA184000E30566 /* TipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipView.m; sourceTree = "<group>"; };
 		A8E6D4BF1CB9041D00C06670 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8E6D4C31CB9041D00C06670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8E6D4C51CB9041D00C06670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A8E6D4C61CB9041D00C06670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A8E6D4C81CB9041D00C06670 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		A8E6D4C91CB9041D00C06670 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A8E6D4CB1CB9041D00C06670 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		A8E6D4CC1CB9041D00C06670 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		A8E6D4CF1CB9041D00C06670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A8E6D4D11CB9041D00C06670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8E6D4D41CB9041D00C06670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A8E6D4D61CB9041D00C06670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E6D4EC1CB9052C00C06670 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		A8E6D4ED1CB9052C00C06670 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		A8E6D4EF1CB9053600C06670 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		A8E6D4F01CB9053600C06670 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		A8E6D4F21CB9053D00C06670 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		A8E6D4F31CB9053D00C06670 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		A8E6D5081CB90C4100C06670 /* PlayAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayAnimationView.h; sourceTree = "<group>"; };
+		A8E6D5091CB90C4200C06670 /* PlayAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAnimationView.m; sourceTree = "<group>"; };
+		A8E6D52B1CB912C500C06670 /* CollectListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectListManager.h; sourceTree = "<group>"; };
+		A8E6D52C1CB912C500C06670 /* CollectListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectListManager.m; sourceTree = "<group>"; };
+		A8E6D52F1CB914DC00C06670 /* TYAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		A8E6D5301CB914DC00C06670 /* TYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertController.h; sourceTree = "<group>"; };
+		A8E6D5311CB914DC00C06670 /* TYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertController.m; sourceTree = "<group>"; };
+		A8E6D5321CB914DC00C06670 /* TYAlertDropDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertDropDownAnimation.h; sourceTree = "<group>"; };
+		A8E6D5331CB914DC00C06670 /* TYAlertDropDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertDropDownAnimation.m; sourceTree = "<group>"; };
+		A8E6D5341CB914DC00C06670 /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
+		A8E6D5351CB914DC00C06670 /* TYAlertFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertFadeAnimation.m; sourceTree = "<group>"; };
+		A8E6D5361CB914DC00C06670 /* TYAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		A8E6D5371CB914DC00C06670 /* TYAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		A8E6D5381CB914DC00C06670 /* TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertView.h; sourceTree = "<group>"; };
+		A8E6D5391CB914DC00C06670 /* TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertView.m; sourceTree = "<group>"; };
+		A8E6D53A1CB914DC00C06670 /* TYBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseAnimation.h; sourceTree = "<group>"; };
+		A8E6D53B1CB914DC00C06670 /* TYBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseAnimation.m; sourceTree = "<group>"; };
+		A8E6D53C1CB914DC00C06670 /* TYShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShowAlertView.h; sourceTree = "<group>"; };
+		A8E6D53D1CB914DC00C06670 /* TYShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShowAlertView.m; sourceTree = "<group>"; };
+		A8E6D53E1CB914DC00C06670 /* UIView+TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAlertView.h"; sourceTree = "<group>"; };
+		A8E6D53F1CB914DC00C06670 /* UIView+TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAlertView.m"; sourceTree = "<group>"; };
+		A8E6D5401CB914DC00C06670 /* UIView+TYAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAutoLayout.h"; sourceTree = "<group>"; };
+		A8E6D5411CB914DC00C06670 /* UIView+TYAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAutoLayout.m"; sourceTree = "<group>"; };
+		A8E6D54D1CB916C900C06670 /* NetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		A8E6D54E1CB916C900C06670 /* NetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+		A8E6D5D61CB9250800C06670 /* iconfont-bofang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bofang.png"; sourceTree = "<group>"; };
+		A8E6D5D71CB9250800C06670 /* iconfont-bofang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bofang@2x.png"; sourceTree = "<group>"; };
+		A8E6D5D81CB9250800C06670 /* iconfont-bofanglist2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bofanglist2.png"; sourceTree = "<group>"; };
+		A8E6D5D91CB9250800C06670 /* iconfont-bofanglist2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bofanglist2@2x.png"; sourceTree = "<group>"; };
+		A8E6D5DA1CB9250800C06670 /* iconfont-delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-delete.png"; sourceTree = "<group>"; };
+		A8E6D5DB1CB9250800C06670 /* iconfont-delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-delete@2x.png"; sourceTree = "<group>"; };
+		A8E6D5DC1CB9250800C06670 /* iconfont-delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-delete@3x.png"; sourceTree = "<group>"; };
+		A8E6D5DD1CB9250800C06670 /* iconfont-dian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-dian.png"; sourceTree = "<group>"; };
+		A8E6D5DE1CB9250800C06670 /* iconfont-dian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-dian@2x.png"; sourceTree = "<group>"; };
+		A8E6D5DF1CB9250800C06670 /* iconfont-dian_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-dian_b.png"; sourceTree = "<group>"; };
+		A8E6D5E01CB9250800C06670 /* iconfont-gengduo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-gengduo.png"; sourceTree = "<group>"; };
+		A8E6D5E11CB9250800C06670 /* iconfont-gengduo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-gengduo@2x.png"; sourceTree = "<group>"; };
+		A8E6D5E21CB9250800C06670 /* iconfont-gengduo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-gengduo@3x.png"; sourceTree = "<group>"; };
+		A8E6D5E31CB9250800C06670 /* iconfont-pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-pause.png"; sourceTree = "<group>"; };
+		A8E6D5E41CB9250800C06670 /* iconfont-pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-pause@2x.png"; sourceTree = "<group>"; };
+		A8E6D5E51CB9250800C06670 /* iconfont-shangyishou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shangyishou.png"; sourceTree = "<group>"; };
+		A8E6D5E61CB9250800C06670 /* iconfont-shangyishou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shangyishou@2x.png"; sourceTree = "<group>"; };
+		A8E6D5E71CB9250800C06670 /* iconfont-shangyishou_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shangyishou_b.png"; sourceTree = "<group>"; };
+		A8E6D5E81CB9250800C06670 /* iconfont-shu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shu.png"; sourceTree = "<group>"; };
+		A8E6D5E91CB9250800C06670 /* iconfont-shu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shu@2x.png"; sourceTree = "<group>"; };
+		A8E6D5EA1CB9250800C06670 /* iconfont-shu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shu@3x.png"; sourceTree = "<group>"; };
+		A8E6D5EB1CB9250800C06670 /* iconfont-xia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xia.png"; sourceTree = "<group>"; };
+		A8E6D5EC1CB9250800C06670 /* iconfont-xia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xia@2x.png"; sourceTree = "<group>"; };
+		A8E6D5ED1CB9250800C06670 /* iconfont-xia@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xia@3x.png"; sourceTree = "<group>"; };
+		A8E6D5EE1CB9250800C06670 /* iconfont-xiayishou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xiayishou.png"; sourceTree = "<group>"; };
+		A8E6D5EF1CB9250800C06670 /* iconfont-xiayishou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xiayishou@2x.png"; sourceTree = "<group>"; };
+		A8E6D5F01CB9250800C06670 /* iconfont-xiayishou_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xiayishou_b.png"; sourceTree = "<group>"; };
+		A8E6D5F11CB9250800C06670 /* iconfont-zhengque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-zhengque.png"; sourceTree = "<group>"; };
+		A8E6D5F21CB9250800C06670 /* iconfont-zhengque@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-zhengque@2x.png"; sourceTree = "<group>"; };
+		A8E6D5F31CB9250800C06670 /* iconfont-zhengque_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-zhengque_b.png"; sourceTree = "<group>"; };
+		A8E6D5F41CB9250800C06670 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		A8E6D5F51CB9250800C06670 /* music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music@2x.png"; sourceTree = "<group>"; };
+		A8E6D5F61CB9250800C06670 /* music_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_small.png; sourceTree = "<group>"; };
+		A8E6D5F71CB9250800C06670 /* music_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music_small@2x.png"; sourceTree = "<group>"; };
+		A8E6D5F91CB9250800C06670 /* iconfont-bofanglist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bofanglist.png"; sourceTree = "<group>"; };
+		A8E6D5FA1CB9250800C06670 /* iconfont-bofanglist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bofanglist@2x.png"; sourceTree = "<group>"; };
+		A8E6D5FB1CB9250800C06670 /* iconfont-bofanglist@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bofanglist@3x.png"; sourceTree = "<group>"; };
+		A8E6D5FC1CB9250800C06670 /* iconfont-danquxunhuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-danquxunhuan.png"; sourceTree = "<group>"; };
+		A8E6D5FD1CB9250800C06670 /* iconfont-danquxunhuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-danquxunhuan@2x.png"; sourceTree = "<group>"; };
+		A8E6D5FE1CB9250800C06670 /* iconfont-danquxunhuan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-danquxunhuan@3x.png"; sourceTree = "<group>"; };
+		A8E6D5FF1CB9250800C06670 /* iconfont-fenxiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-fenxiang.png"; sourceTree = "<group>"; };
+		A8E6D6001CB9250800C06670 /* iconfont-fenxiang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-fenxiang@2x.png"; sourceTree = "<group>"; };
+		A8E6D6011CB9250800C06670 /* iconfont-fenxiang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-fenxiang@3x.png"; sourceTree = "<group>"; };
+		A8E6D6021CB9250800C06670 /* iconfont-liebiaoxunhuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-liebiaoxunhuan.png"; sourceTree = "<group>"; };
+		A8E6D6031CB9250800C06670 /* iconfont-liebiaoxunhuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-liebiaoxunhuan@2x.png"; sourceTree = "<group>"; };
+		A8E6D6041CB9250800C06670 /* iconfont-liebiaoxunhuan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-liebiaoxunhuan@3x.png"; sourceTree = "<group>"; };
+		A8E6D6051CB9250800C06670 /* iconfont-shoucang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shoucang.png"; sourceTree = "<group>"; };
+		A8E6D6061CB9250800C06670 /* iconfont-shoucang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shoucang@2x.png"; sourceTree = "<group>"; };
+		A8E6D6071CB9250800C06670 /* iconfont-shoucang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shoucang@3x.png"; sourceTree = "<group>"; };
+		A8E6D6081CB9250800C06670 /* iconfont-shoucang_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shoucang_s.png"; sourceTree = "<group>"; };
+		A8E6D6091CB9250800C06670 /* iconfont-shoucang_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shoucang_s@2x.png"; sourceTree = "<group>"; };
+		A8E6D60A1CB9250800C06670 /* iconfont-shoucang_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shoucang_s@3x.png"; sourceTree = "<group>"; };
+		A8E6D60B1CB9250800C06670 /* iconfont-shunxuxunhuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shunxuxunhuan.png"; sourceTree = "<group>"; };
+		A8E6D60C1CB9250800C06670 /* iconfont-shunxuxunhuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shunxuxunhuan@2x.png"; sourceTree = "<group>"; };
+		A8E6D60D1CB9250800C06670 /* iconfont-shunxuxunhuan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shunxuxunhuan@3x.png"; sourceTree = "<group>"; };
+		A8E6D60E1CB9250800C06670 /* iconfont-suijibofang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-suijibofang.png"; sourceTree = "<group>"; };
+		A8E6D60F1CB9250800C06670 /* iconfont-suijibofang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-suijibofang@2x.png"; sourceTree = "<group>"; };
+		A8E6D6101CB9250800C06670 /* iconfont-suijibofang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-suijibofang@3x.png"; sourceTree = "<group>"; };
+		A8E6D6111CB9250800C06670 /* iconfont-xiazai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xiazai.png"; sourceTree = "<group>"; };
+		A8E6D6121CB9250800C06670 /* iconfont-xiazai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xiazai@2x.png"; sourceTree = "<group>"; };
+		A8E6D6131CB9250800C06670 /* iconfont-xiazai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xiazai@3x.png"; sourceTree = "<group>"; };
+		A8E6D6151CB9250800C06670 /* iconfont-yinliangda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangda.png"; sourceTree = "<group>"; };
+		A8E6D6161CB9250800C06670 /* iconfont-yinliangda@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangda@2x.png"; sourceTree = "<group>"; };
+		A8E6D6171CB9250800C06670 /* iconfont-yinliangda@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangda@3x.png"; sourceTree = "<group>"; };
+		A8E6D6181CB9250800C06670 /* iconfont-yinliangjingyin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangjingyin.png"; sourceTree = "<group>"; };
+		A8E6D6191CB9250800C06670 /* iconfont-yinliangjingyin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangjingyin@2x.png"; sourceTree = "<group>"; };
+		A8E6D61A1CB9250800C06670 /* iconfont-yinliangjingyin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangjingyin@3x.png"; sourceTree = "<group>"; };
+		A8E6D61B1CB9250800C06670 /* iconfont-yinliangxiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangxiao.png"; sourceTree = "<group>"; };
+		A8E6D61C1CB9250800C06670 /* iconfont-yinliangxiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangxiao@2x.png"; sourceTree = "<group>"; };
+		A8E6D61D1CB9250800C06670 /* iconfont-yinliangxiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-yinliangxiao@3x.png"; sourceTree = "<group>"; };
+		D91DFE3E4811EB44475E5E61 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +283,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB7108CA3B30E3DDCE5652F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5A665D245C49AB3591858D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9358E636D11AA8226B4AC03D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A81DB7DB1CBA183F00E30566 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A81DB8281CBA184D00E30566 /* AVPlayer */,
+				A81DB7DC1CBA183F00E30566 /* AppDelegate.h */,
+				A81DB7DD1CBA183F00E30566 /* AppDelegate.m */,
+				A81DB7DE1CBA183F00E30566 /* Assets.xcassets */,
+				A81DB7E11CBA183F00E30566 /* LaunchScreen.storyboard */,
+				A81DB7E31CBA183F00E30566 /* Main.storyboard */,
+				A81DB7E51CBA183F00E30566 /* CircularProgressView.h */,
+				A81DB7E61CBA183F00E30566 /* CircularProgressView.m */,
+				A81DB7E71CBA183F00E30566 /* DetailViewController.h */,
+				A81DB7E81CBA183F00E30566 /* DetailViewController.m */,
+				A81DB7E91CBA183F00E30566 /* Info.plist */,
+				A81DB7EA1CBA183F00E30566 /* LyricTableView.h */,
+				A81DB7EB1CBA183F00E30566 /* LyricTableView.m */,
+				A81DB7EC1CBA183F00E30566 /* LyricTableViewCell.h */,
+				A81DB7ED1CBA183F00E30566 /* LyricTableViewCell.m */,
+				A81DB7EE1CBA183F00E30566 /* LyricView_A.h */,
+				A81DB7EF1CBA183F00E30566 /* LyricView_A.m */,
+				A81DB7F01CBA183F00E30566 /* LyricView_T.h */,
+				A81DB7F11CBA184000E30566 /* LyricView_T.m */,
+				A81DB7F21CBA184000E30566 /* main.m */,
+				A81DB7F31CBA184000E30566 /* MainViewController.h */,
+				A81DB7F41CBA184000E30566 /* MainViewController.m */,
+				A81DB7F51CBA184000E30566 /* MasterViewController.h */,
+				A81DB7F61CBA184000E30566 /* MasterViewController.m */,
+				A81DB7F71CBA184000E30566 /* MoreView.h */,
+				A81DB7F81CBA184000E30566 /* MoreView.m */,
+				A81DB7F91CBA184000E30566 /* MusicBarView.h */,
+				A81DB7FA1CBA184000E30566 /* MusicBarView.m */,
+				A81DB7FB1CBA184000E30566 /* MusicBarViewController.h */,
+				A81DB7FC1CBA184000E30566 /* MusicBarViewController.m */,
+				A81DB7FD1CBA184000E30566 /* MusicListViewController.h */,
+				A81DB7FE1CBA184000E30566 /* MusicListViewController.m */,
+				A81DB7FF1CBA184000E30566 /* MusicPlayerListManager.h */,
+				A81DB8001CBA184000E30566 /* MusicPlayerListManager.m */,
+				A81DB8011CBA184000E30566 /* MusicPlayerListTableViewCell.h */,
+				A81DB8021CBA184000E30566 /* MusicPlayerListTableViewCell.m */,
+				A81DB8031CBA184000E30566 /* MusicPlayerListViewController.h */,
+				A81DB8041CBA184000E30566 /* MusicPlayerListViewController.m */,
+				A81DB8051CBA184000E30566 /* MusicPlayerViewController.h */,
+				A81DB8061CBA184000E30566 /* MusicPlayerViewController.m */,
+				A81DB8071CBA184000E30566 /* NSString+GetMusicLyricArray.h */,
+				A81DB8081CBA184000E30566 /* NSString+GetMusicLyricArray.m */,
+				A81DB8091CBA184000E30566 /* NSString+GetWidHeight.h */,
+				A81DB80A1CBA184000E30566 /* NSString+GetWidHeight.m */,
+				A81DB80B1CBA184000E30566 /* PCH.h */,
+				A81DB80C1CBA184000E30566 /* TipView.h */,
+				A81DB80D1CBA184000E30566 /* TipView.m */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		A81DB8281CBA184D00E30566 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A81DB7DF1CBA183F00E30566 /* AVPlayerManager.h */,
+				A81DB7E01CBA183F00E30566 /* AVPlayerManager.m */,
+			);
+			name = AVPlayer;
+			sourceTree = "<group>";
+		};
 		A8E6D4B61CB9041D00C06670 = {
 			isa = PBXGroup;
 			children = (
-				A8E6D4C11CB9041D00C06670 /* MusicPlayer */,
+				A81DB7DB1CBA183F00E30566 /* MusicPlayer */,
+				A8E6D5D51CB9250800C06670 /* MusicPlayerImage */,
+				A8E6D54C1CB916B700C06670 /* Network */,
+				A8E6D52E1CB914DC00C06670 /* TYAlertController */,
+				A8E6D5081CB90C4100C06670 /* PlayAnimationView.h */,
+				A8E6D5091CB90C4200C06670 /* PlayAnimationView.m */,
+				A8E6D4DF1CB9046900C06670 /* Model */,
+				A8E6D4DD1CB9045300C06670 /* Database */,
+				A8E6D4DC1CB9044200C06670 /* Collection */,
 				A8E6D4C01CB9041D00C06670 /* Products */,
+				F0303AE30D256EBD7C419B29 /* Pods */,
+				A5A665D245C49AB3591858D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,30 +387,170 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8E6D4C11CB9041D00C06670 /* MusicPlayer */ = {
+		A8E6D4DC1CB9044200C06670 /* Collection */ = {
 			isa = PBXGroup;
 			children = (
-				A8E6D4C51CB9041D00C06670 /* AppDelegate.h */,
-				A8E6D4C61CB9041D00C06670 /* AppDelegate.m */,
-				A8E6D4C81CB9041D00C06670 /* MasterViewController.h */,
-				A8E6D4C91CB9041D00C06670 /* MasterViewController.m */,
-				A8E6D4CB1CB9041D00C06670 /* DetailViewController.h */,
-				A8E6D4CC1CB9041D00C06670 /* DetailViewController.m */,
-				A8E6D4CE1CB9041D00C06670 /* Main.storyboard */,
-				A8E6D4D11CB9041D00C06670 /* Assets.xcassets */,
-				A8E6D4D31CB9041D00C06670 /* LaunchScreen.storyboard */,
-				A8E6D4D61CB9041D00C06670 /* Info.plist */,
-				A8E6D4C21CB9041D00C06670 /* Supporting Files */,
+				A8E6D4EC1CB9052C00C06670 /* CollectionViewController.h */,
+				A8E6D4ED1CB9052C00C06670 /* CollectionViewController.m */,
+				A8E6D52B1CB912C500C06670 /* CollectListManager.h */,
+				A8E6D52C1CB912C500C06670 /* CollectListManager.m */,
 			);
-			path = MusicPlayer;
+			name = Collection;
 			sourceTree = "<group>";
 		};
-		A8E6D4C21CB9041D00C06670 /* Supporting Files */ = {
+		A8E6D4DD1CB9045300C06670 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				A8E6D4C31CB9041D00C06670 /* main.m */,
+				A8E6D4EF1CB9053600C06670 /* DatabaseManager.h */,
+				A8E6D4F01CB9053600C06670 /* DatabaseManager.m */,
 			);
-			name = "Supporting Files";
+			name = Database;
+			sourceTree = "<group>";
+		};
+		A8E6D4DF1CB9046900C06670 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8E6D4F21CB9053D00C06670 /* Music.h */,
+				A8E6D4F31CB9053D00C06670 /* Music.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A8E6D52E1CB914DC00C06670 /* TYAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				A8E6D52F1CB914DC00C06670 /* TYAlertController+TransitionAnimate.m */,
+				A8E6D5301CB914DC00C06670 /* TYAlertController.h */,
+				A8E6D5311CB914DC00C06670 /* TYAlertController.m */,
+				A8E6D5321CB914DC00C06670 /* TYAlertDropDownAnimation.h */,
+				A8E6D5331CB914DC00C06670 /* TYAlertDropDownAnimation.m */,
+				A8E6D5341CB914DC00C06670 /* TYAlertFadeAnimation.h */,
+				A8E6D5351CB914DC00C06670 /* TYAlertFadeAnimation.m */,
+				A8E6D5361CB914DC00C06670 /* TYAlertScaleFadeAnimation.h */,
+				A8E6D5371CB914DC00C06670 /* TYAlertScaleFadeAnimation.m */,
+				A8E6D5381CB914DC00C06670 /* TYAlertView.h */,
+				A8E6D5391CB914DC00C06670 /* TYAlertView.m */,
+				A8E6D53A1CB914DC00C06670 /* TYBaseAnimation.h */,
+				A8E6D53B1CB914DC00C06670 /* TYBaseAnimation.m */,
+				A8E6D53C1CB914DC00C06670 /* TYShowAlertView.h */,
+				A8E6D53D1CB914DC00C06670 /* TYShowAlertView.m */,
+				A8E6D53E1CB914DC00C06670 /* UIView+TYAlertView.h */,
+				A8E6D53F1CB914DC00C06670 /* UIView+TYAlertView.m */,
+				A8E6D5401CB914DC00C06670 /* UIView+TYAutoLayout.h */,
+				A8E6D5411CB914DC00C06670 /* UIView+TYAutoLayout.m */,
+			);
+			path = TYAlertController;
+			sourceTree = "<group>";
+		};
+		A8E6D54C1CB916B700C06670 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A8E6D54D1CB916C900C06670 /* NetWork.h */,
+				A8E6D54E1CB916C900C06670 /* NetWork.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		A8E6D5D51CB9250800C06670 /* MusicPlayerImage */ = {
+			isa = PBXGroup;
+			children = (
+				A8E6D5D61CB9250800C06670 /* iconfont-bofang.png */,
+				A8E6D5D71CB9250800C06670 /* iconfont-bofang@2x.png */,
+				A8E6D5D81CB9250800C06670 /* iconfont-bofanglist2.png */,
+				A8E6D5D91CB9250800C06670 /* iconfont-bofanglist2@2x.png */,
+				A8E6D5DA1CB9250800C06670 /* iconfont-delete.png */,
+				A8E6D5DB1CB9250800C06670 /* iconfont-delete@2x.png */,
+				A8E6D5DC1CB9250800C06670 /* iconfont-delete@3x.png */,
+				A8E6D5DD1CB9250800C06670 /* iconfont-dian.png */,
+				A8E6D5DE1CB9250800C06670 /* iconfont-dian@2x.png */,
+				A8E6D5DF1CB9250800C06670 /* iconfont-dian_b.png */,
+				A8E6D5E01CB9250800C06670 /* iconfont-gengduo.png */,
+				A8E6D5E11CB9250800C06670 /* iconfont-gengduo@2x.png */,
+				A8E6D5E21CB9250800C06670 /* iconfont-gengduo@3x.png */,
+				A8E6D5E31CB9250800C06670 /* iconfont-pause.png */,
+				A8E6D5E41CB9250800C06670 /* iconfont-pause@2x.png */,
+				A8E6D5E51CB9250800C06670 /* iconfont-shangyishou.png */,
+				A8E6D5E61CB9250800C06670 /* iconfont-shangyishou@2x.png */,
+				A8E6D5E71CB9250800C06670 /* iconfont-shangyishou_b.png */,
+				A8E6D5E81CB9250800C06670 /* iconfont-shu.png */,
+				A8E6D5E91CB9250800C06670 /* iconfont-shu@2x.png */,
+				A8E6D5EA1CB9250800C06670 /* iconfont-shu@3x.png */,
+				A8E6D5EB1CB9250800C06670 /* iconfont-xia.png */,
+				A8E6D5EC1CB9250800C06670 /* iconfont-xia@2x.png */,
+				A8E6D5ED1CB9250800C06670 /* iconfont-xia@3x.png */,
+				A8E6D5EE1CB9250800C06670 /* iconfont-xiayishou.png */,
+				A8E6D5EF1CB9250800C06670 /* iconfont-xiayishou@2x.png */,
+				A8E6D5F01CB9250800C06670 /* iconfont-xiayishou_b.png */,
+				A8E6D5F11CB9250800C06670 /* iconfont-zhengque.png */,
+				A8E6D5F21CB9250800C06670 /* iconfont-zhengque@2x.png */,
+				A8E6D5F31CB9250800C06670 /* iconfont-zhengque_b.png */,
+				A8E6D5F41CB9250800C06670 /* music.png */,
+				A8E6D5F51CB9250800C06670 /* music@2x.png */,
+				A8E6D5F61CB9250800C06670 /* music_small.png */,
+				A8E6D5F71CB9250800C06670 /* music_small@2x.png */,
+				A8E6D5F81CB9250800C06670 /* MusicPlayerFoot */,
+				A8E6D6141CB9250800C06670 /* MusicPlayerVolume */,
+			);
+			path = MusicPlayerImage;
+			sourceTree = "<group>";
+		};
+		A8E6D5F81CB9250800C06670 /* MusicPlayerFoot */ = {
+			isa = PBXGroup;
+			children = (
+				A8E6D5F91CB9250800C06670 /* iconfont-bofanglist.png */,
+				A8E6D5FA1CB9250800C06670 /* iconfont-bofanglist@2x.png */,
+				A8E6D5FB1CB9250800C06670 /* iconfont-bofanglist@3x.png */,
+				A8E6D5FC1CB9250800C06670 /* iconfont-danquxunhuan.png */,
+				A8E6D5FD1CB9250800C06670 /* iconfont-danquxunhuan@2x.png */,
+				A8E6D5FE1CB9250800C06670 /* iconfont-danquxunhuan@3x.png */,
+				A8E6D5FF1CB9250800C06670 /* iconfont-fenxiang.png */,
+				A8E6D6001CB9250800C06670 /* iconfont-fenxiang@2x.png */,
+				A8E6D6011CB9250800C06670 /* iconfont-fenxiang@3x.png */,
+				A8E6D6021CB9250800C06670 /* iconfont-liebiaoxunhuan.png */,
+				A8E6D6031CB9250800C06670 /* iconfont-liebiaoxunhuan@2x.png */,
+				A8E6D6041CB9250800C06670 /* iconfont-liebiaoxunhuan@3x.png */,
+				A8E6D6051CB9250800C06670 /* iconfont-shoucang.png */,
+				A8E6D6061CB9250800C06670 /* iconfont-shoucang@2x.png */,
+				A8E6D6071CB9250800C06670 /* iconfont-shoucang@3x.png */,
+				A8E6D6081CB9250800C06670 /* iconfont-shoucang_s.png */,
+				A8E6D6091CB9250800C06670 /* iconfont-shoucang_s@2x.png */,
+				A8E6D60A1CB9250800C06670 /* iconfont-shoucang_s@3x.png */,
+				A8E6D60B1CB9250800C06670 /* iconfont-shunxuxunhuan.png */,
+				A8E6D60C1CB9250800C06670 /* iconfont-shunxuxunhuan@2x.png */,
+				A8E6D60D1CB9250800C06670 /* iconfont-shunxuxunhuan@3x.png */,
+				A8E6D60E1CB9250800C06670 /* iconfont-suijibofang.png */,
+				A8E6D60F1CB9250800C06670 /* iconfont-suijibofang@2x.png */,
+				A8E6D6101CB9250800C06670 /* iconfont-suijibofang@3x.png */,
+				A8E6D6111CB9250800C06670 /* iconfont-xiazai.png */,
+				A8E6D6121CB9250800C06670 /* iconfont-xiazai@2x.png */,
+				A8E6D6131CB9250800C06670 /* iconfont-xiazai@3x.png */,
+			);
+			path = MusicPlayerFoot;
+			sourceTree = "<group>";
+		};
+		A8E6D6141CB9250800C06670 /* MusicPlayerVolume */ = {
+			isa = PBXGroup;
+			children = (
+				A8E6D6151CB9250800C06670 /* iconfont-yinliangda.png */,
+				A8E6D6161CB9250800C06670 /* iconfont-yinliangda@2x.png */,
+				A8E6D6171CB9250800C06670 /* iconfont-yinliangda@3x.png */,
+				A8E6D6181CB9250800C06670 /* iconfont-yinliangjingyin.png */,
+				A8E6D6191CB9250800C06670 /* iconfont-yinliangjingyin@2x.png */,
+				A8E6D61A1CB9250800C06670 /* iconfont-yinliangjingyin@3x.png */,
+				A8E6D61B1CB9250800C06670 /* iconfont-yinliangxiao.png */,
+				A8E6D61C1CB9250800C06670 /* iconfont-yinliangxiao@2x.png */,
+				A8E6D61D1CB9250800C06670 /* iconfont-yinliangxiao@3x.png */,
+			);
+			path = MusicPlayerVolume;
+			sourceTree = "<group>";
+		};
+		F0303AE30D256EBD7C419B29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D91DFE3E4811EB44475E5E61 /* Pods.debug.xcconfig */,
+				6DE0142D9872F1A2ACBB0F8C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,9 +560,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8E6D4D91CB9041D00C06670 /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
 			buildPhases = (
+				389A66E0538161CBD80ED930 /* Check Pods Manifest.lock */,
 				A8E6D4BB1CB9041D00C06670 /* Sources */,
 				A8E6D4BC1CB9041D00C06670 /* Frameworks */,
 				A8E6D4BD1CB9041D00C06670 /* Resources */,
+				1473680DCC1DC228046A120F /* Embed Pods Frameworks */,
+				0101A5E23EBE8BBD8128C729 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,43 +613,196 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E6D4D51CB9041D00C06670 /* LaunchScreen.storyboard in Resources */,
-				A8E6D4D21CB9041D00C06670 /* Assets.xcassets in Resources */,
-				A8E6D4D01CB9041D00C06670 /* Main.storyboard in Resources */,
+				A8E6D6311CB9250800C06670 /* iconfont-shu@2x.png in Resources */,
+				A8E6D6361CB9250800C06670 /* iconfont-xiayishou.png in Resources */,
+				A8E6D6611CB9250800C06670 /* iconfont-yinliangxiao.png in Resources */,
+				A8E6D6501CB9250800C06670 /* iconfont-shoucang_s@2x.png in Resources */,
+				A8E6D6251CB9250800C06670 /* iconfont-dian.png in Resources */,
+				A8E6D61E1CB9250800C06670 /* iconfont-bofang.png in Resources */,
+				A81DB8121CBA184000E30566 /* Main.storyboard in Resources */,
+				A8E6D63F1CB9250800C06670 /* music_small@2x.png in Resources */,
+				A81DB80F1CBA184000E30566 /* Assets.xcassets in Resources */,
+				A8E6D62D1CB9250800C06670 /* iconfont-shangyishou.png in Resources */,
+				A81DB8111CBA184000E30566 /* LaunchScreen.storyboard in Resources */,
+				A8E6D6601CB9250800C06670 /* iconfont-yinliangjingyin@3x.png in Resources */,
+				A8E6D65A1CB9250800C06670 /* iconfont-xiazai@3x.png in Resources */,
+				A8E6D6421CB9250800C06670 /* iconfont-bofanglist@3x.png in Resources */,
+				A8E6D6201CB9250800C06670 /* iconfont-bofanglist2.png in Resources */,
+				A8E6D6411CB9250800C06670 /* iconfont-bofanglist@2x.png in Resources */,
+				A8E6D6481CB9250800C06670 /* iconfont-fenxiang@3x.png in Resources */,
+				A8E6D6451CB9250800C06670 /* iconfont-danquxunhuan@3x.png in Resources */,
+				A8E6D6431CB9250800C06670 /* iconfont-danquxunhuan.png in Resources */,
+				A8E6D6551CB9250800C06670 /* iconfont-suijibofang.png in Resources */,
+				A81DB8151CBA184000E30566 /* Info.plist in Resources */,
+				A8E6D6471CB9250800C06670 /* iconfont-fenxiang@2x.png in Resources */,
+				A8E6D63B1CB9250800C06670 /* iconfont-zhengque_b.png in Resources */,
+				A8E6D64D1CB9250800C06670 /* iconfont-shoucang@2x.png in Resources */,
+				A8E6D6391CB9250800C06670 /* iconfont-zhengque.png in Resources */,
+				A8E6D6271CB9250800C06670 /* iconfont-dian_b.png in Resources */,
+				A8E6D6231CB9250800C06670 /* iconfont-delete@2x.png in Resources */,
+				A8E6D63A1CB9250800C06670 /* iconfont-zhengque@2x.png in Resources */,
+				A8E6D65F1CB9250800C06670 /* iconfont-yinliangjingyin@2x.png in Resources */,
+				A8E6D6351CB9250800C06670 /* iconfont-xia@3x.png in Resources */,
+				A8E6D6581CB9250800C06670 /* iconfont-xiazai.png in Resources */,
+				A8E6D64A1CB9250800C06670 /* iconfont-liebiaoxunhuan@2x.png in Resources */,
+				A8E6D64F1CB9250800C06670 /* iconfont-shoucang_s.png in Resources */,
+				A8E6D6261CB9250800C06670 /* iconfont-dian@2x.png in Resources */,
+				A8E6D61F1CB9250800C06670 /* iconfont-bofang@2x.png in Resources */,
+				A8E6D6441CB9250800C06670 /* iconfont-danquxunhuan@2x.png in Resources */,
+				A8E6D6591CB9250800C06670 /* iconfont-xiazai@2x.png in Resources */,
+				A8E6D64B1CB9250800C06670 /* iconfont-liebiaoxunhuan@3x.png in Resources */,
+				A8E6D6341CB9250800C06670 /* iconfont-xia@2x.png in Resources */,
+				A8E6D6531CB9250800C06670 /* iconfont-shunxuxunhuan@2x.png in Resources */,
+				A8E6D6241CB9250800C06670 /* iconfont-delete@3x.png in Resources */,
+				A8E6D6371CB9250800C06670 /* iconfont-xiayishou@2x.png in Resources */,
+				A8E6D6491CB9250800C06670 /* iconfont-liebiaoxunhuan.png in Resources */,
+				A8E6D6211CB9250800C06670 /* iconfont-bofanglist2@2x.png in Resources */,
+				A8E6D62A1CB9250800C06670 /* iconfont-gengduo@3x.png in Resources */,
+				A8E6D6381CB9250800C06670 /* iconfont-xiayishou_b.png in Resources */,
+				A8E6D6331CB9250800C06670 /* iconfont-xia.png in Resources */,
+				A8E6D6461CB9250800C06670 /* iconfont-fenxiang.png in Resources */,
+				A8E6D6281CB9250800C06670 /* iconfont-gengduo.png in Resources */,
+				A8E6D62C1CB9250800C06670 /* iconfont-pause@2x.png in Resources */,
+				A8E6D65B1CB9250800C06670 /* iconfont-yinliangda.png in Resources */,
+				A8E6D6511CB9250800C06670 /* iconfont-shoucang_s@3x.png in Resources */,
+				A8E6D6401CB9250800C06670 /* iconfont-bofanglist.png in Resources */,
+				A8E6D6221CB9250800C06670 /* iconfont-delete.png in Resources */,
+				A8E6D64C1CB9250800C06670 /* iconfont-shoucang.png in Resources */,
+				A8E6D62B1CB9250800C06670 /* iconfont-pause.png in Resources */,
+				A8E6D63E1CB9250800C06670 /* music_small.png in Resources */,
+				A8E6D6291CB9250800C06670 /* iconfont-gengduo@2x.png in Resources */,
+				A8E6D6301CB9250800C06670 /* iconfont-shu.png in Resources */,
+				A8E6D63D1CB9250800C06670 /* music@2x.png in Resources */,
+				A8E6D62F1CB9250800C06670 /* iconfont-shangyishou_b.png in Resources */,
+				A8E6D6631CB9250800C06670 /* iconfont-yinliangxiao@3x.png in Resources */,
+				A8E6D64E1CB9250800C06670 /* iconfont-shoucang@3x.png in Resources */,
+				A8E6D6541CB9250800C06670 /* iconfont-shunxuxunhuan@3x.png in Resources */,
+				A8E6D6561CB9250800C06670 /* iconfont-suijibofang@2x.png in Resources */,
+				A8E6D65E1CB9250800C06670 /* iconfont-yinliangjingyin.png in Resources */,
+				A8E6D6571CB9250800C06670 /* iconfont-suijibofang@3x.png in Resources */,
+				A8E6D6521CB9250800C06670 /* iconfont-shunxuxunhuan.png in Resources */,
+				A8E6D6621CB9250800C06670 /* iconfont-yinliangxiao@2x.png in Resources */,
+				A8E6D6321CB9250800C06670 /* iconfont-shu@3x.png in Resources */,
+				A8E6D62E1CB9250800C06670 /* iconfont-shangyishou@2x.png in Resources */,
+				A8E6D65D1CB9250800C06670 /* iconfont-yinliangda@3x.png in Resources */,
+				A8E6D65C1CB9250800C06670 /* iconfont-yinliangda@2x.png in Resources */,
+				A8E6D63C1CB9250800C06670 /* music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0101A5E23EBE8BBD8128C729 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1473680DCC1DC228046A120F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		389A66E0538161CBD80ED930 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8E6D4BB1CB9041D00C06670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E6D4C71CB9041D00C06670 /* AppDelegate.m in Sources */,
-				A8E6D4CA1CB9041D00C06670 /* MasterViewController.m in Sources */,
-				A8E6D4C41CB9041D00C06670 /* main.m in Sources */,
-				A8E6D4CD1CB9041D00C06670 /* DetailViewController.m in Sources */,
+				A81DB81F1CBA184000E30566 /* MusicBarViewController.m in Sources */,
+				A8E6D5471CB914DC00C06670 /* TYAlertView.m in Sources */,
+				A81DB8201CBA184000E30566 /* MusicListViewController.m in Sources */,
+				A8E6D54B1CB914DC00C06670 /* UIView+TYAutoLayout.m in Sources */,
+				A81DB81E1CBA184000E30566 /* MusicBarView.m in Sources */,
+				A8E6D5431CB914DC00C06670 /* TYAlertController.m in Sources */,
+				A81DB8171CBA184000E30566 /* LyricTableViewCell.m in Sources */,
+				A81DB8261CBA184000E30566 /* NSString+GetWidHeight.m in Sources */,
+				A81DB8131CBA184000E30566 /* CircularProgressView.m in Sources */,
+				A81DB8221CBA184000E30566 /* MusicPlayerListTableViewCell.m in Sources */,
+				A81DB8231CBA184000E30566 /* MusicPlayerListViewController.m in Sources */,
+				A8E6D54F1CB916C900C06670 /* NetWork.m in Sources */,
+				A8E6D54A1CB914DC00C06670 /* UIView+TYAlertView.m in Sources */,
+				A8E6D5441CB914DC00C06670 /* TYAlertDropDownAnimation.m in Sources */,
+				A8E6D5421CB914DC00C06670 /* TYAlertController+TransitionAnimate.m in Sources */,
+				A81DB8191CBA184000E30566 /* LyricView_T.m in Sources */,
+				A81DB8161CBA184000E30566 /* LyricTableView.m in Sources */,
+				A8E6D52D1CB912C500C06670 /* CollectListManager.m in Sources */,
+				A8E6D4F41CB9053D00C06670 /* Music.m in Sources */,
+				A81DB8101CBA184000E30566 /* AVPlayerManager.m in Sources */,
+				A8E6D5461CB914DC00C06670 /* TYAlertScaleFadeAnimation.m in Sources */,
+				A81DB81D1CBA184000E30566 /* MoreView.m in Sources */,
+				A81DB8241CBA184000E30566 /* MusicPlayerViewController.m in Sources */,
+				A81DB81A1CBA184000E30566 /* main.m in Sources */,
+				A81DB8181CBA184000E30566 /* LyricView_A.m in Sources */,
+				A81DB81B1CBA184000E30566 /* MainViewController.m in Sources */,
+				A8E6D5491CB914DC00C06670 /* TYShowAlertView.m in Sources */,
+				A8E6D4F11CB9053600C06670 /* DatabaseManager.m in Sources */,
+				A81DB8211CBA184000E30566 /* MusicPlayerListManager.m in Sources */,
+				A8E6D5481CB914DC00C06670 /* TYBaseAnimation.m in Sources */,
+				A81DB8271CBA184000E30566 /* TipView.m in Sources */,
+				A81DB8141CBA184000E30566 /* DetailViewController.m in Sources */,
+				A81DB8251CBA184000E30566 /* NSString+GetMusicLyricArray.m in Sources */,
+				A8E6D4EE1CB9052C00C06670 /* CollectionViewController.m in Sources */,
+				A81DB80E1CBA184000E30566 /* AppDelegate.m in Sources */,
+				A8E6D5451CB914DC00C06670 /* TYAlertFadeAnimation.m in Sources */,
+				A81DB81C1CBA184000E30566 /* MasterViewController.m in Sources */,
+				A8E6D50A1CB90C4200C06670 /* PlayAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A8E6D4CE1CB9041D00C06670 /* Main.storyboard */ = {
+		A81DB7E11CBA183F00E30566 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8E6D4CF1CB9041D00C06670 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A8E6D4D31CB9041D00C06670 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8E6D4D41CB9041D00C06670 /* Base */,
+				A81DB7E21CBA183F00E30566 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A81DB7E31CBA183F00E30566 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A81DB7E41CBA183F00E30566 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -265,23 +890,31 @@
 		};
 		A8E6D4DA1CB9041D00C06670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91DFE3E4811EB44475E5E61 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DreamArts.co.jp.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A8E6D4DB1CB9041D00C06670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE0142D9872F1A2ACBB0F8C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DreamArts.co.jp.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -304,6 +937,7 @@
 				A8E6D4DB1CB9041D00C06670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
