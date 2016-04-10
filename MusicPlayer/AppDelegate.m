@@ -1,13 +1,18 @@
 //
 //  AppDelegate.m
-//  MusicPlayer
+//  musicPlayer
 //
 //  Created by haoyang_zheng on 16/4/9.
 //  Copyright © 2016年 DAC. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
 #import "DetailViewController.h"
+
+#import "MainViewController.h"
+
+#import "MusicBarViewController.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -17,11 +22,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-    UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-    navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
-    splitViewController.delegate = self;
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    //根视图控制器
+    
+    MainViewController *MainVC = [[MainViewController alloc]init];
+    UINavigationController *MainNC =[[UINavigationController alloc]initWithRootViewController:MainVC];
+    
+    MainNC.navigationBar.translucent= NO;//导航条不透明
+    
+    //音乐栏控制器
+    MusicBarViewController *musicBarController = [[MusicBarViewController alloc]init];
+    
+    musicBarController.viewControllers = @[MainNC];
+    
+    //获取tabBar中的UITaBarButton视图  并将其删除
+    
+    UIView *UITabBarButton = musicBarController.tabBar.subviews[1];
+    
+    [UITabBarButton removeFromSuperview];
+    
+    self.window.rootViewController = musicBarController;
+
     return YES;
 }
 
